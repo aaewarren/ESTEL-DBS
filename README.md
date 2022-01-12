@@ -1,6 +1,6 @@
 # ESTEL-DBS
 
-This code documents the image pre-processing steps relevant to the following paper:
+This code documents the image pre-processing and connectivity analysis steps relevant to the following paper:
 
 _The optimal target and connectivity for deep brain stimulation in Lennox-Gastaut syndrome_
 Aaron E.L Warren, Linda J. Dalic, Kristian J. Bulluss, Wesley Thevathasan, Annie Roten, John S. Archer
