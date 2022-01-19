@@ -2,8 +2,8 @@
 
 This code documents the image pre-processing and connectivity analysis steps relevant to the following paper:
 
-The optimal target and connectivity for deep brain stimulation in Lennox-Gastaut syndrome
-Aaron E.L Warren, Linda J. Dalic, Kristian J. Bulluss, Wesley Thevathasan, Annie Roten, John S. Archer
+The optimal target and connectivity for DBS in Lennox-Gastaut syndrome
+Aaron E.L Warren, Linda J. Dalic, Kristian J. Bulluss, Annie Roten, Wesley Thevathasan, John S. Archer
 
 Analysis performed using the High Performance Computing (HPC) system ("Spartan") operated by Research Computing Services at The University of Melbourne:
 
