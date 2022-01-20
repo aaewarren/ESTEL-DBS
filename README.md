@@ -23,4 +23,8 @@ These bash scripts are read to submit to SLURM (via sbatch). They perform [group
 
 ### **HCP_DBS_3.sh/LGS_DBS_3.sh**
 
-These bash scripts create a separate sub-script for each subject (*_sub-2.script). After per-subject scripts are created, they are ready to submit to SLURM (via sbatch). They create FOD images (using the group-averaged tissue response functions calculated in previous step) and perform [tractography](https://mrtrix.readthedocs.io/en/latest/reference/commands/tckgen.html), [SIFT2](https://mrtrix.readthedocs.io/en/latest/reference/commands/tcksift2.html), and [connectome calculation](https://mrtrix.readthedocs.io/en/latest/reference/commands/tck2connectome.html) steps. Connectomes are saved as .csv files, for importing into MatLab below. 
+These bash scripts create a separate sub-script for each subject (*_sub-2.script). After per-subject scripts are created, they are ready to submit to SLURM (via sbatch). They create FOD images (using the group-averaged tissue response functions calculated in previous step) and perform [tractography](https://mrtrix.readthedocs.io/en/latest/reference/commands/tckgen.html), [SIFT2](https://mrtrix.readthedocs.io/en/latest/reference/commands/tcksift2.html), and [connectome calculation](https://mrtrix.readthedocs.io/en/latest/reference/commands/tck2connectome.html) steps. Connectomes are saved as .csv files, for importing into MatLab below.
+
+### **HCP_DBS_4.m/LGS_DBS_4.m**
+
+These MatLab scripts
