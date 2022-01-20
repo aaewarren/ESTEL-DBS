@@ -15,12 +15,12 @@ Each stream includes four stages, executed consecutively (three bash scripts: *_
 
 ### **HCP_DBS_1.sh/LGS_DBS_1.sh**
 
-These bash files create a separate sub-script for each subject (*_sub.script). After per-subject scripts are created, they are ready to submit to SLURM via sbatch. They perform initial DWI and T1 pre-processing steps and calculate subject-specific tissue response functions using the 'dhollander' method in MRTrix3. 
+These bash scripts create a separate sub-script for each subject (*_sub.script). After per-subject scripts are created, they are ready to submit to SLURM (via sbatch). They perform initial DWI and T1 pre-processing steps and calculate subject-specific tissue response functions using the [Dhollander](https://mrtrix.readthedocs.io/en/latest/reference/commands/dwi2response.html#dwi2response-dhollander) approach in [MRtrix3](https://mrtrix.readthedocs.io/en/latest/index.html) software. 
 
 ### **HCP_DBS_2.sh/LGS_DBS_2.sh**
 
-These bash files are read to submit to SLURM. They perform group-averaging of subject-specific tissue response functions created above. 
+These bash scripts are read to submit to SLURM (via sbatch). They perform [group-averaging](https://mrtrix.readthedocs.io/en/latest/reference/commands/responsemean.html) of the subject-specific tissue response functions created above. 
 
 ### **HCP_DBS_3.sh/LGS_DBS_3.sh**
 
-These bash files create a separate sub-script for each subject (*_sub-2.script). After per-subject scripts are created, they are ready to submit to SLURM via sbatch. They create FOD images (using the group-average tissue response functions calculated in previous step) and perform tractography, SIFT2, and connectome calculation steps. Connectomes are saved as *csv files. 
+These bash scripts create a separate sub-script for each subject (*_sub-2.script). After per-subject scripts are created, they are ready to submit to SLURM (via sbatch). They create FOD images (using the group-averaged tissue response functions calculated in previous step) and perform tractography, [SIFT2](https://mrtrix.readthedocs.io/en/latest/reference/commands/tcksift2.html), and [connectome calculation](https://mrtrix.readthedocs.io/en/latest/reference/commands/tck2connectome.html) steps. Connectomes are saved as *csv files. 
