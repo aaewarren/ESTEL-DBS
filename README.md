@@ -11,7 +11,7 @@ Lev Lafayette, Greg Sauter, Linh Vu, Bernard Meade, "Spartan Performance and Fle
 
 Analyses occur in two streams, one for the Human Connectome Project (HCP) DWI dataset (scripts beginning HCP*) and another for the disease-matched LGS DWI dataset (scripts beginning LGS*). The HCP and LGS streams differ slightly due to differences in DWI acquistion. In particular, for the LGS dataset, the following differences apply: (i) EPI distortion correction is performed without field-map or reverse phase-encoding data, using the ‘synthetic b0’ approach implemented by the excellent [Synb0-DISCO software](https://github.com/MASILab/Synb0-DISCO); and (ii) FOD images are generated using [Single-Shell 3-Tissue CSD](https://3tissue.github.io), rather than multi-shell multi-tissue CSD (used for the multi-shell HCP dataset). 
 
-Each stream includes four stages, executed consecutively (three bash scripts: *_1.sh, *_2.sh, *_3.sh; and lastly one MatLab script: *_4.m). 
+Each stream includes four stages, executed consecutively (three bash scripts: *_1.sh, *_2.sh, *_3.sh; and lastly one MatLab script: *_4.m).
 
 ### **HCP_DBS_1.sh/LGS_DBS_1.sh**
 
