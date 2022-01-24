@@ -27,5 +27,5 @@ These bash scripts create a separate sub-script for each subject (*_sub-2.script
 
 ### **HCP_DBS_4.m/LGS_DBS_4.m**
 
-These MatLab scripts perform post-processing steps on the structural connectome files (*.csv) computed by HCP_DBS_3.sh/LGS_DBS_3.sh, and then calculate parcel-wise correlations between connectivity values and ESTEL patient clinical outcomes. The scripts rely upon the function "nii_tool.m" for reading/writing NIfTI data. This function can be downloaded from [here](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/42997/versions/80/previews/nii_tool.m/index.html?access_key=).
+These MatLab scripts perform post-processing steps on the structural connectome files (*.csv) computed by HCP_DBS_3.sh/LGS_DBS_3.sh, and then calculate parcel-wise correlations between connectivity values and ESTEL patient clinical outcomes. The scripts require the function "nii_tool.m" for reading/writing NIfTI data. This function can be downloaded from [here](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/42997/versions/80/previews/nii_tool.m/index.html?access_key=).
 
