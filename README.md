@@ -27,4 +27,4 @@ These bash scripts create a separate sub-script for each subject (*_sub-2.script
 
 ### **HCP_DBS_4.m/LGS_DBS_4.m**
 
-These MatLab scripts
+These MatLab scripts perform post-processing steps on the structural connectome files (*.csv) computed by HCP_DBS_3.sh/LGS_DBS_3.sh, and then calculate parcel-wise correlations between connectivity values and ESTEL patient clinical outcomes. 
