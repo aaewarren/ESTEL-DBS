@@ -20,7 +20,7 @@ These bash scripts create a separate sub-script for each subject (*_sub.script).
 
 ### **HCP_DBS_2.sh/LGS_DBS_2.sh**
 
-These bash scripts are read to submit to SLURM (via sbatch). They perform [group-averaging](https://mrtrix.readthedocs.io/en/latest/reference/commands/responsemean.html) of the subject-specific tissue response functions created above. 
+These bash scripts are ready to submit to SLURM (via sbatch). They perform [group-averaging](https://mrtrix.readthedocs.io/en/latest/reference/commands/responsemean.html) of the subject-specific tissue response functions created above. 
 
 ### **HCP_DBS_3.sh/LGS_DBS_3.sh**
 
