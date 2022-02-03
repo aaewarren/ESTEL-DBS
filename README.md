@@ -3,6 +3,7 @@
 This code documents the image pre-processing and connectivity analysis steps relevant to the following paper:
 
 _The optimal target and connectivity for DBS in Lennox-Gastaut syndrome._
+
 Aaron E.L Warren, Linda J. Dalic, Kristian J. Bulluss, Annie Roten, Wesley Thevathasan, John S. Archer
 
 Analyses were performed using the High Performance Computing (HPC) system ([Spartan](https://dashboard.hpc.unimelb.edu.au)) operated by Research Computing Services at The University of Melbourne:
