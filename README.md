@@ -2,7 +2,7 @@
 
 This code documents the image pre-processing and connectivity analysis steps relevant to the following paper:
 
-_The optimal target and connectivity for DBS in Lennox-Gastaut syndrome._
+_The optimal target and connectivity for deep brain stimulation in Lennox-Gastaut syndrome._
 
 Aaron E.L Warren, Linda J. Dalic, Kristian J. Bulluss, Annie Roten, Wesley Thevathasan, John S. Archer
 
